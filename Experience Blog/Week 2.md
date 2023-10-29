@@ -1,0 +1,15 @@
+## Week 2
+
+Our team is finding that things are going more smoothly and efficiently as we enter the second week of our project. We've come to an agreement on the project's main focus, which is a web application designed to offer thorough how-to manuals for frequently used mobile applications—especially those targeted at senior citizens. These apps can be divided into five main categories: **Government services (SingPass, HealthHub), Food (GrabFood/FoodPanda), Transportation (Grab, SingBus, SG BusLeh), Finance (POSB digibank), and Telecommunications (WhatsApp, Telegram).**
+
+We presented our idea to the stakeholders this week, and they had some insightful concerns. One important consideration was whether we should use a more generalized strategy that covers similar apps, or customize the instructional materials for each application specifically. One of the main issues we must resolve is striking a balance between specificity and generalization.
+
+An essential aspect was brought to light by the feedback from stakeholders: an idea's efficacy is not always correlated with its complexity. We came to the conclusion that a project doesn't have to be extremely complicated to have an impact. Rather, we ought to concentrate on making sure our web application accomplishes its goals. This idea is especially important because our team consists of only five people and we have a limited amount of time. We should strive for fewer features that are executed extraordinarily effectively rather than overstuffing our system with features.
+
+We have also discussed the need of taking user experience into account. We acknowledge the need of comprehending how senior users will engage with our online program as they adhere to the directions. It is crucial to make sure the experience is easy to use and intuitive.
+
+There were new difficulties this week as well. Despite being a tech-savvy person, I had trouble figuring out how much information our guides needed to provide. Even something that seems obvious to me may be unduly complicated for elderly people who are not tech savvy. Some people who struggle to understand small mobile devices or have low English ability may find phrases like "Click on the login button" confusing. We are looking on adding screenshots with arrows to show the exact spots to tap in order to get the desired effects in order to fix this. With this visual help, the comprehension gap might be closed.
+
+One other issue I ran upon was privacy-related. I was hesitant to utilize my own account screenshots in the guidelines. Even though I could block personal information, there's a chance that someone with bad intentions may take down the censor and get access to my data. We must consider other approaches to obtaining screenshots for our tutorials while upholding security and privacy in light of this problem.
+
+To sum up, we have made great strides and gained important understandings regarding the course and execution of our project over the second week. With these issues taken care of and our methodology improved, we should be well-positioned to help the elderly with their mobile applications.
