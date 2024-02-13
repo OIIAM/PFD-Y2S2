@@ -7,7 +7,7 @@ I went to school on Tuesday while still feeling under the weather as that was on
 I decided to do the Trello for the Assignment 1 portion as i realised that no one have done it yet
 
 Trello Assignment 1
-![![alt text](<Trello for asg 1.JPG>)](<../Images/Trello for asg 1.JPG>)
+![alt text](<../Images/Trello for asg 1.JPG>)
 
 Assignment 1 consists of 3 sprints
 
