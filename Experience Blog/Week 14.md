@@ -11,7 +11,7 @@ AuthController.cs contains actions related to authentication, such as signing in
 Edit and Delete Actions:
 
 Edit: This action handles the HTTP POST request to edit a user. It uses the ValidateAntiForgeryToken to prevent cross-site request forgery (CSRF) attacks. If the operation is successful, it redirects to the Index action; otherwise, it returns the current view.
-Delete: Similar to Edit, this action is for deleting a user. It presents the delete view on a GET request and processes the deletion on a POST request, redirecting to Index upon success.
+Delete: Similar to Edit, this action is for deleting a user. It presents the delete view on a GET request and processes the deletion on a POST request, redirecting to the Index upon success.
 
 Sign In Action:
 
@@ -43,13 +43,13 @@ GetUserByEmail and GetStaffByEmail are asynchronous methods that retrieve a user
 
 Add User/Staff:
 
-AddUser and AddStaff are asynchronous methods that take a User or Staff object, hash the password for security using BCrypt, and then save this data to the Firestore database within the "users" or "staff" collection. The methods return a boolean indicating success or failure of the operation.
+AddUser and AddStaff are asynchronous methods that take a User or Staff object, hash the password for security using BCrypt, and then save this data to the Firestore database within the "users" or "staff" collection. The methods return a boolean indicating the success or failure of the operation.
 
 Get User/Staff:
 
 GetUser and GetStaff are methods that iterate through the Firestore database collection "users" or "staff" and attempt to convert each document into a User or Staff object, which is then added to a list. The process continues until a document with the current ID doesn't exist, at which point the loop exits, and the list of users or staff is returned.
 
-Based on this codes, I wa able to get the user creation working. It was mentioned during this week meeting that the creation of staff should not be displayed anywhere on the website at the moment, however, I decided to have the method for creating the staff within the code first just in case it is needed down the line. The user was able to appear within the firebase database when creating them. However, when I tried to use the same email to create another account, i was able to create it again, which means that the email authentication part was not working as intended. I kept troubleshooting in an attempt to find the problem, however, as there was no actual errors within the code that will stop it from working properly, ![alt text](../Images/image.png) for reference, I was unable to figure out what was wrong with my code.
+Based on these codes, I was able to get the user creation working. It was mentioned during this week's meeting that the creation of staff should not be displayed anywhere on the website at the moment, however, I decided to have the method for creating the staff within the code first just in case it is needed down the line. The user was able to appear within the Firebase database when creating them. However, when I tried to use the same email to create another account, I was able to create it again, which means that the email authentication part was not working as intended. I kept troubleshooting in an attempt to find the problem, however, as there were no actual errors within the code that would stop it from working properly,![alt text](../Images/image.png) For reference, I was unable to figure out what was wrong with my code.
 
 Thus, after several days of attempted troubleshooting with no results, I decided to ask Vishwa to help me with the code.
 
